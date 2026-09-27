@@ -5,10 +5,10 @@ https://github.com/Anitsupakl/TMS/blob/main/lesson11/app.service
 
 Тест самого приложение запущенного в venv
 
-![Image Alt](https://github.com/Anitsupakl/TMS/blob/main/lesson11/localhost_test.png?raw=true)
-![Image Alt](https://github.com/Anitsupakl/TMS/blob/main/lesson11/python%20start.png?raw=true)
+![Image Alt](https://github.com/Anitsupakl/TMS/blob/main/lesson11/app1/localhost_test.png?raw=true)
+![Image Alt](https://github.com/Anitsupakl/TMS/blob/main/lesson11/app1/python%20start.png?raw=true)
 
 Запуск как systemd:
-![Image Alt](https://github.com/Anitsupakl/TMS/blob/main/lesson11/status%20app.service.png?raw=true)
+![Image Alt](https://github.com/Anitsupakl/TMS/blob/main/lesson11/app1/status%20app.service.png?raw=true)
 
 Enable потом вырубила,не хочу чтобы порт занимал
