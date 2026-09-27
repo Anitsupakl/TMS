@@ -1,0 +1,14 @@
+[Unit]
+Description=Some app by Flask
+Documentation=https://github.com/anestesia001/apps_v2.2/blob/main/app2.py
+After=network-online.target
+
+[Service]
+Type=simple
+User=lera
+Group=lera
+ExecStart=/usr/bin/python3 /data/TMS/lesson11/flask_app.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
