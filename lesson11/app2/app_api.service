@@ -1,0 +1,14 @@
+[Unit]
+Description=Some api application by Flask
+Documentation=https://github.com/anestesia001/simple-api/blob/main/app.py
+After=network-online.target
+
+[Service]
+Type=simple
+User=lera
+Group=lera
+ExecStart=/usr/bin/python3 /data/TMS/lesson11/app2/simple-api.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

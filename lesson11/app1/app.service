@@ -7,7 +7,7 @@ After=network-online.target
 Type=simple
 User=lera
 Group=lera
-ExecStart=/usr/bin/python3 /data/TMS/lesson11/flask_app.py
+ExecStart=/usr/bin/python3 /data/TMS/lesson11/app1/flask_app.py
 Restart=always
 
 [Install]
