@@ -4,6 +4,7 @@ https://github.com/Anitsupakl/TMS/blob/main/lesson14/check_free_ports.sh
 https://github.com/Anitsupakl/TMS/blob/main/lesson14/deploy_lending.sh 
 
 3. Развернуть Python-веб-сервер как systemd демон
+![Image Alt](https://github.com/Anitsupakl/TMS/blob/main/lesson13/http_service.png?raw=true)
 
 Требования
 Сервер запущен как systemd демон с правами пользователя webadmin
