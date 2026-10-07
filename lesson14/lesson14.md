@@ -4,9 +4,19 @@ https://github.com/Anitsupakl/TMS/blob/main/lesson14/check_free_ports.sh
 https://github.com/Anitsupakl/TMS/blob/main/lesson14/deploy_lending.sh 
 
 3. Развернуть Python-веб-сервер как systemd демон
-![Image Alt](https://github.com/Anitsupakl/TMS/blob/main/lesson13/http_service.png?raw=true)
+![Image Alt](https://github.com/Anitsupakl/TMS/blob/main/lesson14/status.png)
+
+8000 у меня занят, поэтому я нагло изменила на 9000
+![Image Alt](https://github.com/Anitsupakl/TMS/blob/main/lesson14/localhost.png)
 
 Требования
+
 Сервер запущен как systemd демон с правами пользователя webadmin
+Дублирую 3 пункт с картинкой
+
 Пользователь webadmin не имеет shell-доступпа и является членом группы webgroup
+![Image Alt](https://github.com/Anitsupakl/TMS/blob/main/lesson14/no_shell_for_user.png)
+![Image Alt](https://github.com/Anitsupakl/TMS/blob/main/lesson14/group.png)
+
 Код сервера расположен в директории /opt/srv/webapp; в той же диреткории лежит content/index.html с содержимым
+![Image Alt](https://github.com/Anitsupakl/TMS/blob/main/lesson14/treewebapp.png)
