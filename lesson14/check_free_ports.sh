@@ -24,3 +24,4 @@ for ((i = FREE_PORT_N1; i <= COUNTER; i++)); do
     # exit 0
   fi
 done
+# ничего лучше не придумано как проверять /check_free_ports.sh 1 8010 | grep "занят" (свободен)
