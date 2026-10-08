@@ -1,9 +1,12 @@
 1. Написать скрипт для поиска свободного порта из диапазона M-N, где M и N - передаются скрипту как аргументы
-https://github.com/Anitsupakl/TMS/blob/main/lesson14/check_free_ports.sh 
-2. Написать скрипт, для деплоя лендинга https://gitlab.com/dos-26/cmdb/frontend и скрипт для его проверки
+   Предупреждение! Скрипт содержит извращения,при просмотре может стать больно
+   
+https://github.com/Anitsupakl/TMS/blob/main/lesson14/check_free_ports.sh
+
+3. Написать скрипт, для деплоя лендинга https://gitlab.com/dos-26/cmdb/frontend и скрипт для его проверки
 https://github.com/Anitsupakl/TMS/blob/main/lesson14/deploy_lending.sh 
 
-3. Развернуть Python-веб-сервер как systemd демон
+4. Развернуть Python-веб-сервер как systemd демон
 ![Image Alt](https://github.com/Anitsupakl/TMS/blob/main/lesson14/status.png)
 
 8000 у меня занят, поэтому я нагло изменила на 9000
