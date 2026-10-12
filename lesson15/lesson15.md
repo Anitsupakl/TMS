@@ -8,7 +8,9 @@
 3.Настроить Nginx в качестве прокси для созданного в пп1,2 приложения
 Настройки нджинкса
 ![Image Alt](https://github.com/Anitsupakl/TMS/blob/main/lesson15/nginx_settings.png)
+
 Странички
+
 Сервер нейм брала из айпишника своей ВМ
 ![Image Alt](https://github.com/Anitsupakl/TMS/blob/main/lesson15/main.page.png)
 ![Image Alt](https://github.com/Anitsupakl/TMS/blob/main/lesson15/api_data.png)
