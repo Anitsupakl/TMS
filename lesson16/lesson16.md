@@ -20,7 +20,7 @@ https://github.com/Anitsupakl/TMS/blob/main/lesson16/server-json.service
 ![Image Alt](https://github.com/Anitsupakl/TMS/blob/main/lesson16/server2.png?raw=true)
 
 
-5. Настроить на nginx балансировку запросов (round robin)
+3. Настроить на nginx балансировку запросов (round robin)
 
 upstream backend {
   server 127.0.0.1:3000;
