@@ -1,0 +1,15 @@
+
+[Unit]
+Description=App js server
+Documentation=https://github.com/anestesia001/dos-37/blob/main/lesson_16.md
+After=network-online.target
+
+[Service]
+Type=simple
+User=lera
+Group=lera
+ExecStart=/home/lera/.nvm/versions/node/v24.19.0/bin/node /data/TeachMeSkills/TMS/lesson16/server.js
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
