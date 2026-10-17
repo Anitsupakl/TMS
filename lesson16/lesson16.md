@@ -1,16 +1,22 @@
 1. Запустить приложение https://github.com/anestesia001/dos-36-js как systemd-демон
+   
 https://github.com/Anitsupakl/TMS/blob/main/lesson16/server-json.service
 
 Статус
+
 ![Image Alt](https://github.com/Anitsupakl/TMS/blob/main/lesson16/status.png?raw=true)
+
 Запуск
+
 ![Image Alt](https://github.com/Anitsupakl/TMS/blob/main/lesson16/system.png?raw=true)
 
 2.Настроить nginx в роли reverse proxy с TLS для этого приложения
 
 
 3. Поднять второй экземпляр приложения из п1 на другом порту
+   
    На 3001:
+   
 ![Image Alt](https://github.com/Anitsupakl/TMS/blob/main/lesson16/server2.png?raw=true)
 
 
