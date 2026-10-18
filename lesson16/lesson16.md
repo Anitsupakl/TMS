@@ -46,9 +46,25 @@ server {
     proxy_set_header X-Real-IP $remote_addr;
     proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
   }
+  location /api/notes {
+    default_type application/json;
+    add_header X-Demo-Location "/api/notes";
+    return 200 ' {"status": "ok"}';
+}
+  location /notes { 
+    add_header X-Demo-Location "/notes";
+    default_type application/json;
+    return 200 ' {"status": "ok"}';
+}
+  location /add { 
+    add_header X-Demo-Location "/add";
+    default_type application/json;
+    return 200 ' {"status": "you add some notes"}';
+}
  
 }
 ```
+
 ![Image Alt](https://github.com/Anitsupakl/TMS/blob/main/lesson16/ssl.key.png?raw=true)
 
 3.Поднять второй экземпляр приложения из п1 на другом порту
@@ -70,4 +86,22 @@ upstream backend {
 
 ![Image Alt](https://github.com/Anitsupakl/TMS/blob/main/lesson16/curl_balancer.png?raw=true)
 
-5. Провести нагрузочное тестирование приложения с помощью locust (скрипт с тестами есть в репозитории https://github.com/anestesia001/dos-36-js/blob/main/locustfile.py ; запуск locust -f locustfile.py)
+5. Провести нагрузочное тестирование приложения с помощью locust
+   (скрипт с тестами есть в репозитории https://github.com/anestesia001/dos-36-js/blob/main/locustfile.py ; запуск locust -f locustfile.py)
+
+
+Зафейлились скорее всего из-за самодписанного сертификата:
+
+![Image Alt](https://github.com/Anitsupakl/TMS/blob/main/lesson16/locust_https.png)
+
+Потому что с ключом -k, все возвращало:
+
+![Image Alt](https://github.com/Anitsupakl/TMS/blob/main/lesson16/curl_htpps.png)
+
+Переключала на http обратно 
+
+![Image Alt](https://github.com/Anitsupakl/TMS/blob/main/lesson16/locust_http.png)
+
+и все равно были фейлы, пока не разобралась шо не так, так как курл все ок отдает(
+
+![Image Alt](https://github.com/Anitsupakl/TMS/blob/main/lesson16/faille_http.png)
