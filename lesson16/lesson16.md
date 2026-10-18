@@ -49,7 +49,7 @@ server {
  
 }
 ```
-
+![Image Alt](https://github.com/Anitsupakl/TMS/blob/main/lesson16/ssl.key.png?raw=true)
 
 3.Поднять второй экземпляр приложения из п1 на другом порту
    
