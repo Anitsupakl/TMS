@@ -10,9 +10,9 @@ https://github.com/Anitsupakl/TMS/blob/main/lesson16/server-json.service
 
 ![Image Alt](https://github.com/Anitsupakl/TMS/blob/main/lesson16/system.png?raw=true)
 
-2.Настроить nginx в роли reverse proxy с TLS для этого приложения
-'''
-pstream backend {
+2.Настроить nginx в роли reverse proxy с TLS для этого приложения   
+`
+upstream backend {
   server 127.0.0.1:3000;
   server 127.0.0.1:3001;
 }
@@ -48,7 +48,7 @@ server {
   }
  
 }
-'''
+`   
 
 3.Поднять второй экземпляр приложения из п1 на другом порту
    
