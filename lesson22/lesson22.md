@@ -34,7 +34,7 @@
 2. docker run -d -it --name info-py-1 -v ./app.py:/app/app.py -p 5000:5000 flask3
 ```
 
-![Image Alt](https://github.com/Anitsupakl/TMS/blob/main/lesson22/php3.png?raw=true)
+![Image Alt](https://github.com/Anitsupakl/TMS/blob/main/lesson22/flask4.png?raw=true)
 
 
 Задание 5
@@ -43,8 +43,7 @@
 1. docker build -t js:v1 .
 2. docker run -d -it --name info-node-1 -p 3000:3000 js:v1
 ```
-
-![Image Alt](https://github.com/Anitsupakl/TMS/blob/main/lesson22/php3.png?raw=true)
+![Image Alt](https://github.com/Anitsupakl/TMS/blob/main/lesson22/node.png?raw=true)
 
 
 
