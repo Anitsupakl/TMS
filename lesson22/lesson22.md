@@ -1,3 +1,4 @@
+
 Задание 1
 
 ```python
@@ -11,6 +12,7 @@
 ```python
 1. docker build -t sayhello .
 2. docker run -d -it --name sayhello-1 -v ./hello.py:/app/hello.py sayhello
+3. docker exec -it sayhello-1 bash
 ```
 
 ![Image Alt](https://github.com/Anitsupakl/TMS/blob/main/lesson22/hello.png?raw=true)
