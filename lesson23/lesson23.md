@@ -1,10 +1,27 @@
 Задание 1
-Запустить с помощью docker compose приложения https://gitlab.com/dos-29-onl/docker-apps/-/tree/main/compose-apps/nodejs-app_01?ref_type=heads
+Запустить с помощью docker compose приложения 
+https://gitlab.com/dos-29-onl/docker-apps/-/tree/main/compose-apps/nodejs-app_01?ref_type=heads
 
-
-Dockerfile https://github.com/Anitsupakl/TMS/blob/main/lesson23/task1/Dockerfile 
-
-docker compose https://github.com/Anitsupakl/TMS/blob/main/lesson23/task1/docker-compose.yaml
+docker compose
+```python
+services:
+  flask-app:
+    build: .
+    container_name: flask-app
+    environment:
+      REDIS_HOST: redis
+    ports:
+     - 5000:5000
+    restart: always
+    volumes:
+      - ./app.py:/app/app.py
+  redis:
+    image: redis
+    container_name: redis_flask
+    restart: always
+    ports:
+      - 6379:6379
+```
 
 CURL
 
