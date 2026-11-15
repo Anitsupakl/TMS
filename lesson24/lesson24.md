@@ -8,14 +8,23 @@ docker compose https://github.com/Anitsupakl/TMS/blob/main/lesson24/task1/docker
 
 Курлы:
 ![Image Alt](https://github.com/Anitsupakl/TMS/blob/main/lesson24/task1/curl1.png?raw=true)
-![Image Alt](https://github.com/Anitsupakl/TMS/blob/main/lesson24/task1/curl2.png)
+![Image Alt](https://github.com/Anitsupakl/TMS/blob/main/lesson24/task1/curl2.png) \
 
-    
-    
-    
-    
-    
-    https://gitlab.com/dos-29-onl/docker-apps/-/tree/main/compose-apps/python-app_02?ref_type=heads
-    https://gitlab.com/dos-29-onl/log-app
+# Задание 2 \
+https://gitlab.com/dos-29-onl/docker-apps/-/tree/main/compose-apps/python-app_02?ref_type=heads \
+Dockerfile https://github.com/Anitsupakl/TMS/blob/main/lesson24/task2/Dockerfile \
+docker compose https://github.com/Anitsupakl/TMS/blob/main/lesson24/task2/docker-compose.yaml \
+
+
+Курл:
+![Image Alt](https://github.com/Anitsupakl/TMS/blob/main/lesson24/task2/curl.png?raw=true) \
+
+# Задание 3 \
+https://gitlab.com/dos-29-onl/log-app \
+
+Dockerfile \
+docker compose \
+
+
 
 
