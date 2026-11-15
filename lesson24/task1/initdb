@@ -1,0 +1,2 @@
+CREATE USER goappuser WITH PASSWORD 'qwer/.,m';
+CREATE DATABASE goapp OWNER goappuser;
