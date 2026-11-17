@@ -21,9 +21,8 @@ docker compose https://github.com/Anitsupakl/TMS/blob/main/lesson24/task2/docker
 
 # Задание 3 \
 https://gitlab.com/dos-29-onl/log-app \
-
-Dockerfile \
-docker compose \
+docker compose https://github.com/Anitsupakl/TMS/blob/main/lesson24/task3/docker-compose.yaml \
+![Image Alt](https://github.com/Anitsupakl/TMS/blob/main/lesson24/task3/Screenshot_2026-11-17_21-07-10.png?raw=true)
 
 
 
