@@ -16,3 +16,7 @@ node_modules/
 .env.*
 *.env
 !.env.example
+
+# Embedded repos - local only
+lesson18/
+lesson24/task3/log-app/
