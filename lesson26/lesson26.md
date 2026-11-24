@@ -1,5 +1,5 @@
 # Задание 1 
-Запустить в docker приложение https://github.com/anestesia001/inventory-api \
+Запустить в docker приложение https://github.com/anestesia001/cmdb-37/tree/main\
 Dockerfile https://github.com/Anitsupakl/TMS/blob/main/lesson26/Dockerfile \
 docker compose https://github.com/Anitsupakl/TMS/blob/main/lesson26/docker-compose.yaml \
 
