@@ -8,11 +8,11 @@ docker compose https://github.com/Anitsupakl/TMS/blob/main/lesson26/docker-compo
 
 
 # Задание 2
-Написать скрипт, который обращается к CMDB API и выводит \
+Написать скрипт, который обращается к CMDB API и выводит 
 
-    список всех серверов \
-    список серверов конкретного окружения (dev/prod/etc) \
-    список серверов в заданном через аргумент состоянии (runnung/stopped/maintenance) \
+    список всех серверов 
+    список серверов конкретного окружения (dev/prod/etc) 
+    список серверов в заданном через аргумент состоянии (runnung/stopped/maintenance) 
     
 https://github.com/Anitsupakl/TMS/blob/main/lesson26/check_list_servers.py
 
